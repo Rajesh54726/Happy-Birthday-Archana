@@ -5,7 +5,7 @@ const animationTimeline = () => {
 document.getElementById("main-webpage-button").addEventListener("click", function() { 
    var password = prompt("Enter the password to access this content (Only accessible to Archana 😁):"); 
    if (password === "Archana 2002") { 
-     window.location.href = "https://Birthday-wish-to-Archana.blogspot.com/"; 
+     window.location.href = "https://rajesh54726.github.io/Happy-Birthday-Archana/"; 
    } else { 
      alert("Incorrect password. Please try again."); 
    } 
@@ -317,4 +317,5 @@ const resolveFetch = () => {
 };
 
 resolveFetch().then(animationTimeline());
+
 
